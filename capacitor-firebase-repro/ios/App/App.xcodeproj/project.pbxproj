@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FF664EBF144040800027B7 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3948C7256C996607DA15F013 /* Pods_App.framework */; };
+		03FF664EBF144040800027B7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		27D8DED52C767B8A0025E512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EC3071FED79650016851F /* AppDelegate.swift */; };
-		27D8DED72C767B8A0025E512 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		27D8DEDA2C767B8A0025E512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC3101FED79650016851F /* LaunchScreen.storyboard */; };
 		27D8DEDB2C767B8A0025E512 /* public in Resources */ = {isa = PBXBuildFile; fileRef = 50B271D01FEDC1A000F3C39B /* public */; };
 		27D8DEDC2C767B8A0025E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30E1FED79650016851F /* Assets.xcassets */; };
@@ -17,7 +16,6 @@
 		27D8DEDE2C767B8A0025E512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30B1FED79650016851F /* Main.storyboard */; };
 		27D8DEDF2C767B8A0025E512 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2FAD9762203C412B000D30F8 /* config.xml */; };
 		27D8DEE92C767B9C0025E512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EC3071FED79650016851F /* AppDelegate.swift */; };
-		27D8DEEB2C767B9C0025E512 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		27D8DEEE2C767B9C0025E512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC3101FED79650016851F /* LaunchScreen.storyboard */; };
 		27D8DEEF2C767B9C0025E512 /* public in Resources */ = {isa = PBXBuildFile; fileRef = 50B271D01FEDC1A000F3C39B /* public */; };
 		27D8DEF02C767B9C0025E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30E1FED79650016851F /* Assets.xcassets */; };
@@ -31,6 +29,7 @@
 		504EC30F1FED79650016851F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30E1FED79650016851F /* Assets.xcassets */; };
 		504EC3121FED79650016851F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC3101FED79650016851F /* LaunchScreen.storyboard */; };
 		50B271D11FEDC1A000F3C39B /* public in Resources */ = {isa = PBXBuildFile; fileRef = 50B271D01FEDC1A000F3C39B /* public */; };
+		76BF14D5A077BA5DB4C7EE7F /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91403D9D2EF7D339C263964B /* Pods_App.framework */; };
 		8C452BAF4C74F7B8EA873627 /* Pods_App_Prod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9AE4DC0B458F5158695E9E /* Pods_App_Prod.framework */; };
 		A084ECDBA7D38E1E42DFC39D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		A9DE97069330637ADC196810 /* Pods_App_QA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BA7FD69EE546D6709592D4 /* Pods_App_QA.framework */; };
@@ -54,6 +53,7 @@
 		504EC3131FED79650016851F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B271D01FEDC1A000F3C39B /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
 		59F16ACE3A9F25B5820C5D5C /* Pods-App QA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App QA.release.xcconfig"; path = "Pods/Target Support Files/Pods-App QA/Pods-App QA.release.xcconfig"; sourceTree = "<group>"; };
+		91403D9D2EF7D339C263964B /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26B7DA3140667C521E10AB6 /* Pods-App Prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-App Prod/Pods-App Prod.release.xcconfig"; sourceTree = "<group>"; };
 		AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		E5C53F51765F2DCF8794F977 /* Pods-App QA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App QA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App QA/Pods-App QA.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,7 +82,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A084ECDBA7D38E1E42DFC39D /* BuildFile in Frameworks */,
-				03FF664EBF144040800027B7 /* Pods_App.framework in Frameworks */,
+				03FF664EBF144040800027B7 /* BuildFile in Frameworks */,
+				76BF14D5A077BA5DB4C7EE7F /* Pods_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +95,7 @@
 			children = (
 				3D9AE4DC0B458F5158695E9E /* Pods_App_Prod.framework */,
 				39BA7FD69EE546D6709592D4 /* Pods_App_QA.framework */,
+				91403D9D2EF7D339C263964B /* Pods_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

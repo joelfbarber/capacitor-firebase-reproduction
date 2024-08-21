@@ -3,13 +3,21 @@ PODS:
     - CapacitorCordova
   - CapacitorApp (6.0.1):
     - Capacitor
+  - CapacitorCommunityFileOpener (6.0.0):
+    - Capacitor
   - CapacitorCordova (6.1.2)
+  - CapacitorDevice (6.0.1):
+    - Capacitor
+  - CapacitorFilesystem (6.0.1):
+    - Capacitor
   - CapacitorFirebaseCrashlytics (6.1.0):
     - Capacitor
     - FirebaseCrashlytics (~> 10.25)
   - CapacitorFirebasePerformance (6.1.0):
     - Capacitor
     - FirebasePerformance (~> 10.25)
+  - CapacitorPushNotifications (6.0.2):
+    - Capacitor
   - FirebaseABTesting (10.29.0):
     - FirebaseCore (~> 10.0)
   - FirebaseCore (10.29.0):
@@ -97,9 +105,13 @@ PODS:
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCommunityFileOpener (from `../../node_modules/@capacitor-community/file-opener`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
   - "CapacitorFirebaseCrashlytics (from `../../node_modules/@capacitor-firebase/crashlytics`)"
   - "CapacitorFirebasePerformance (from `../../node_modules/@capacitor-firebase/performance`)"
+  - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
 
 SPEC REPOS:
   trunk:
@@ -125,19 +137,31 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorApp:
     :path: "../../node_modules/@capacitor/app"
+  CapacitorCommunityFileOpener:
+    :path: "../../node_modules/@capacitor-community/file-opener"
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorFilesystem:
+    :path: "../../node_modules/@capacitor/filesystem"
   CapacitorFirebaseCrashlytics:
     :path: "../../node_modules/@capacitor-firebase/crashlytics"
   CapacitorFirebasePerformance:
     :path: "../../node_modules/@capacitor-firebase/performance"
+  CapacitorPushNotifications:
+    :path: "../../node_modules/@capacitor/push-notifications"
 
 SPEC CHECKSUMS:
   Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
   CapacitorApp: 0bc633b4eae40a1f32cd2834788fad3bc42da6a1
+  CapacitorCommunityFileOpener: 4e0086fac78b4ccaaf64956abe34d3443db5767a
   CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  CapacitorDevice: 7097a1deb4224b77fd13a6e60a355d0062a5d772
+  CapacitorFilesystem: 37fb3aa5c945b4539ab11c74a5c57925a302bf24
   CapacitorFirebaseCrashlytics: a4c495104fbe5cb28967ae24ba1364a35d3c1173
   CapacitorFirebasePerformance: c806ce7f8270295465c050210d8e8a4ae2dc282e
+  CapacitorPushNotifications: ccd797926c030acad3d5498ef452c735c90a2c89
   FirebaseABTesting: d87f56707159bae64e269757a6e963d490f2eebe
   FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
   FirebaseCoreExtension: 705ca5b14bf71d2564a0ddc677df1fc86ffa600f
@@ -155,6 +179,6 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
 
-PODFILE CHECKSUM: f9fc4fb47311469286892a3f531b9ca096845e10
+PODFILE CHECKSUM: a0978797970c138ac43fd5642f5ea1573f3c68ac
 
 COCOAPODS: 1.15.2
